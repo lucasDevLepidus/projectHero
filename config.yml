@@ -1,0 +1,44 @@
+baseURL: ""
+languageCode: en-us
+title: Super Heroes
+theme: gokarna
+
+params:
+  titleHome: 'MDC Super Heroes Blog'
+  description: 'Conheça mais sobre os super-heróis mais famosos das editoras de quadrinhos'
+  avatarURL: '/images/justiceLeagueImg.jpg'
+  AvatarAltText: 'avatar'
+  avatarSize: 'size-m'
+
+  socialIcons:
+    [
+      { name: facebook, url: https://example.com },
+      { name: instagram, url: https://example.com },
+      { name: twitter, url: https://example.com },
+      { name: linkedin, url: https://example.com },
+      { name: dribbble, url: https://example.com },
+      { name: twitch, url: https://example.com },
+      { name: email, url: mailto:example@example.com },
+    ]
+
+menu:
+  main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+
+  - identifier: dc
+    name: Detetive Commics
+    url: /dc/
+    weight: 20
+
+  - identifier: marvel
+    name: Marvel
+    url: /marvel/
+    weight: 30
+
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 40
